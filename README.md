@@ -1,17 +1,17 @@
-# Репозиторий для **pull request**
-* В своём аккаунте на GitHub создать копию репозитория **"AndreyBulgakov19/SCV_Git_PR"** с помощью кнопки **"Fork"**.
----
-* Клонировать копию репозитория на локальный компьютер.
----
-* Создать новую ветку.
----
-* Добавить файл с инструкцией в новую ветку.
----
-* Дополнить инструкцию разделами по работе с удалёнными репозиториями, pull request.
----
-* Зафиксировать изменения (коммиты).
----
-* Отправить изменения на GitHub.
----
-* На сайте GitHub выполнить **Pull request**.
----
+## 11. Работа с удаленными репозиториями. 
+ Чтобы добавить новый удаленный репозиторий, выполните команду **git remote add** в терминале в катологе, в котором хранится репозиторий.
+
+Команда *git remote add* принимает два аргумента:
+
+* имя удаленного репозитория,например,` origin`;
+* URL-адрес удаленного репозитория, например,```https://github.com/OWNER/REPOSITORY.git```.
+
+```
+$ git remote add origin https://github.com/OWNER/REPOSITORY.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+```
